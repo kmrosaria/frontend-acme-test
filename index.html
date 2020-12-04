@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    <title>Hello, world!</title>
+    <title>ACME Corporation</title>
   </head>
   <body>
 
@@ -108,66 +108,59 @@
           </div>
       </div>
     </div>
-
+    
     <div class="site-blogs py-4">
-      <div class="container">
+      <div class="container card-carousel">
         <div class="site-blogs-title">
           <h4>ACME <span>Insights</span></h4>
           <span>How are factors being used around the world?</span>
         </div>
         <div class="blogs-container">
-          <div class="row">
-              <div class="col-md-12">
-                  <div class="blogs row">
-                      <div class="col">
-                        <div class="blog-card card">
-                          <div class="card-body">
-                            <div class="blog-img-container">
-                              <div class="blog-img">
-                                <img src="./assets/images/blog-img-1.png" alt="" class="img-fluid">
-                              </div>
-                            </div>
-                            <h3 class="blog-title"><a href="#">Global Factor <br /> Investing Study</a></h3>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="blog-card card">
-                          <div class="card-body">
-                            <div class="blog-img-container">
-                              <div class="blog-img">
-                                <img src="./assets/images/blog-img-2.png" alt="" class="img-fluid">
-                              </div>
-                            </div>
-                            <h3 class="blog-title"><a href="#">2019 <br /> Outlook</a></h3>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="blog-card card">
-                          <div class="card-body">
-                            <div class="blog-img-container">
-                              <div class="blog-img">
-                                <img src="./assets/images/blog-img-3.png" alt="" class="img-fluid">
-                              </div>
-                            </div>
-                            <h3 class="blog-title"><a href="#">Capital Market <br /> Assumptions</a></h3>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <ol class="scroll-indicators">
-              <li class="active"></li>
-              <li class=""></li>
-              <li class=""></li>
+          <div id="blogsCarousel" class="carousel slide" data-ride="carousel" data-interval="99999999999999">
+            <ol class="carousel-indicators dark">
+              <li data-target="#blogsCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#blogsCarousel" data-slide-to="1"></li>
+              <li data-target="#blogsCarousel" data-slide-to="2"></li>
             </ol>
+            <div class="carousel-inner blogs row">
+              <div class="carousel-item col-4 active">
+                <div class="blog-card card">
+                  <div class="card-body">
+                    <div class="blog-img-container">
+                      <div class="blog-img">
+                        <img src="./assets/images/blog-img-1.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                    <h3 class="blog-title"><a href="#">Global Factor <br /> Investing Study</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-4">
+                <div class="blog-card card">
+                  <div class="card-body">
+                    <div class="blog-img-container">
+                      <div class="blog-img">
+                        <img src="./assets/images/blog-img-2.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                    <h3 class="blog-title"><a href="#">2019 <br /> Outlook</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-4">
+                <div class="blog-card card">
+                  <div class="card-body">
+                    <div class="blog-img-container">
+                      <div class="blog-img">
+                        <img src="./assets/images/blog-img-3.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                    <h3 class="blog-title"><a href="#">Capital Market <br /> Assumptions</a></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
@@ -188,81 +181,77 @@
       </div>
     </div>
 
+    
+
     <div class="site-events pt-4 pb-md-5">
-      <div class="container">
+      <div class="container card-carousel">
         <div class="site-events-title">
           <h4>Upcoming <span>Events</span> </h4>
           <span>At ACME, we're dedicated to learning, connecting and exploring opportunities</span>
         </div>
         <div class="events-container">
-          <div class="row">
-              <div class="col-md-12">
-                  <div class="events row">
-                  <div class="col">
-                    <div class="event-card card">
-                      <div class="card-body">
-                        <div class="event-date text-center">
-                          <span class="event-month">JAN</span>
-                          <span class="event-day">28</span>
-                        </div>
-                        <div class="event-body">
-                          <h5 class="card-title">Insight Exchange Network</h5>
-                          <p class="card-text">Join us for this conference showcasing innovation</p>
-                          <a href="#" class="btn">Get More Insight</a>
-                        </div>
-                        <div class="event-location">
-                          <span class="">Chicago, IL</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="event-card card">
-                      <div class="card-body">
-                        <div class="event-date text-center">
-                          <span class="event-month">FEB</span>
-                          <span class="event-day">12</span>
-                        </div>
-                        <div class="event-body">
-                          <h5 class="card-title">Citywide Buyer’s Retreat</h5>
-                          <p class="card-text">ind out how banks are responding to the changing future of interest...</p>
-                          <a href="#" class="btn">Get More Insight</a>
-                        </div>
-                        <div class="event-location">
-                          <span class="">The Wagner, New York </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="event-card card">
-                      <div class="card-body">
-                        <div class="event-date text-center">
-                          <span class="event-month">MAY</span>
-                          <span class="event-day">6</span>
-                        </div>
-                        <div class="event-body">
-                          <h5 class="card-title">Research Exchange</h5>
-                          <p class="card-text">Find the best online resources to help with your investments...</p>
-                          <a href="#" class="btn">Get More Insight</a>
-                        </div>
-                        <div class="event-location">
-                          <span class="">London, England</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <ol class="scroll-indicators dark">
-              <li class="active"></li>
-              <li class=""></li>
-              <li class=""></li>
+          <div id="eventsCarousel" class="carousel slide" data-ride="carousel" data-interval="99999999999999">
+            <ol class="carousel-indicators dark">
+              <li data-target="#eventsCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#eventsCarousel" data-slide-to="1"></li>
+              <li data-target="#eventsCarousel" data-slide-to="2"></li>
             </ol>
+            <div class="carousel-inner events row">
+              <div class="carousel-item col-4 active">
+                <div class="event-card card">
+                  <div class="card-body">
+                    <div class="event-date text-center">
+                      <span class="event-month">JAN</span>
+                      <span class="event-day">28</span>
+                    </div>
+                    <div class="event-body">
+                      <h5 class="card-title">Insight Exchange Network</h5>
+                      <p class="card-text">Join us for this conference showcasing innovation</p>
+                      <a href="#" class="btn">Get More Insight</a>
+                    </div>
+                    <div class="event-location">
+                      <span class="">Chicago, IL</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-4">
+                <div class="event-card card">
+                  <div class="card-body">
+                    <div class="event-date text-center">
+                      <span class="event-month">FEB</span>
+                      <span class="event-day">12</span>
+                    </div>
+                    <div class="event-body">
+                      <h5 class="card-title">Citywide Buyer’s Retreat</h5>
+                      <p class="card-text">ind out how banks are responding to the changing future of interest...</p>
+                      <a href="#" class="btn">Get More Insight</a>
+                    </div>
+                    <div class="event-location">
+                      <span class="">The Wagner, New York </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-4">
+                <div class="event-card card">
+                  <div class="card-body">
+                    <div class="event-date text-center">
+                      <span class="event-month">MAY</span>
+                      <span class="event-day">6</span>
+                    </div>
+                    <div class="event-body">
+                      <h5 class="card-title">Research Exchange</h5>
+                      <p class="card-text">Find the best online resources to help with your investments...</p>
+                      <a href="#" class="btn">Get More Insight</a>
+                    </div>
+                    <div class="event-location">
+                      <span class="">London, England</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -277,6 +266,7 @@
         </div>
       </div>
     </div>
+
 
     <footer>
       <div class="container pt-3 pb-5 desktop-footer">
@@ -346,11 +336,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
       $(document).ready(function () {
+        $('.navbar-toggler').on('click', function () {
 
-      $('.navbar-toggler').on('click', function () {
-
-        $('.mobile-menu-icon').toggleClass('open');
-      });
+          $('.mobile-menu-icon').toggleClass('open');
+        });
       });
     </script>
   </body>
